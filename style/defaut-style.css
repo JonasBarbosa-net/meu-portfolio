@@ -26,6 +26,9 @@ body main section.apresent {
 body main section.info {
   padding: 20px;
 }
+body main section.info h2 {
+  margin-bottom: 50px;
+}
 body main section.info ul div {
   margin-bottom: 40px;
 }
