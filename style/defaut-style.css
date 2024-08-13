@@ -23,13 +23,19 @@ body main section.apresent {
   padding: 0px 10px;
   text-align: justify;
 }
+body main section.info {
+  padding: 20px;
+}
 body main section.info ul div {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 body main section.info ul div li#categoria {
-  color: red;
+  color: rgb(20, 105, 185);
   list-style: none;
   margin: 0;
+}
+body main section.info ul div li#categoria i {
+  padding-right: 8px;
 }
 body main section.info ul div:nth-child(2) li {
   margin-bottom: 4px;
