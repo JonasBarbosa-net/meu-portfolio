@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   margin: 0;
+  box-sizing: border-box;
   font-family: "poppins", arial;
 }
 body header {
+  z-index: -20;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -11,42 +13,59 @@ body header {
   flex-direction: column;
   background-image: url(../img/);
   background-color: rgb(230, 230, 247);
+  position: sticky;
+  top: 0;
 }
 body header h1, body header p {
   margin: 0;
 }
-body main section h2 {
-  text-align: center;
+body main {
+  background-color: white;
 }
-body main section.apresent {
-  text-indent: 15px;
-  padding: 0px 10px;
+body main section {
+  padding: 30px 15px 0px 15px;
+}
+body main section h2 {
+  margin: 0;
+}
+body main section.apresent p {
+  font-size: 1.08em;
+  text-indent: 18px;
   text-align: justify;
 }
-body main section.info {
-  padding: 20px;
+body main section.info ul {
+  padding: 0px 0px 30px 20px;
+  margin: 0;
 }
-body main section.info h2 {
-  margin-bottom: 40px;
-}
-body main section.info ul div {
-  margin-bottom: 40px;
+body main section.info ul hr {
+  background-color: rgba(5, 34, 58, 0.219);
+  border-radius: 50px;
+  margin: 28px 0px;
+  border: none;
+  height: 1px;
+  max-width: 180px;
 }
 body main section.info ul div li#categoria {
-  color: rgb(20, 105, 185);
+  display: inline-block;
+  background-color: rgb(178, 211, 241);
+  font-weight: 600;
   list-style: none;
-  margin: 0;
+  padding: 0px 8px;
+  border-radius: 20px;
+  margin-bottom: 5px;
 }
 body main section.info ul div li#categoria i {
+  position: relative;
+  top: 2px;
+  align-items: center;
   padding-right: 8px;
 }
-body main section.info ul div:nth-child(2) li {
-  margin-bottom: 4px;
+body main section.info ul div ul.itens {
+  padding: 0px 0px 0px 31px;
 }
 body main section.contato {
-  background-color: #282a2c;
-  padding: 20px 0px;
+  background-color: #1a1a1a;
 }
-body main section.contato ul, body main section.contato h2 {
-  margin: 0;
+body main section.contato ul {
+  margin: 0px;
 }/*# sourceMappingURL=defaut-style.css.map */
