@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @mixin TituloSecao() {
-    margin: 0;
+    &::before {
+        content: "";
+        position: relative;
+        top: 0;
+        background-color: rgb(38, 134, 212);
+        border-radius: 50px;
+        padding: 0px 4px;
+        margin-right: 5px;
+    }
+
+    margin: 0px 0px 25px 0px;
 }
 
 
@@ -29,13 +39,14 @@ body {
 
     main {
         background-color: white;
+        padding-top: 30px;
 
         section {
             h2 {
                 @include TituloSecao()
             }
 
-            padding: 30px 15px 0px 15px;
+            padding: 0px 15px 60px 15px;
         }
 
         section.apresent {
@@ -43,12 +54,13 @@ body {
                 font-size: 1.08em;
                 text-indent: 18px;
                 text-align: justify;
+                margin: 0;
             }
         }
 
         section.info {
             ul {
-                padding: 0px 0px 30px 20px;
+                padding: 0px 0px 0px 20px;
                 margin: 0;
 
                 hr {
@@ -87,6 +99,11 @@ body {
 
         section.contato {
             background-color: #1a1a1a;
+            padding-top: 30px;
+
+            h2 {
+                color: rgb(240, 240, 240);
+            }
 
             ul {
                 margin: 0px;
