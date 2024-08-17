@@ -14,6 +14,16 @@
     margin: 0px 0px 25px 0px;
 }
 
+@keyframes girar {
+    0% {
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 body {
     margin: 0;
@@ -51,18 +61,18 @@ body {
 
         section.apresent {
             div.fotoPerfil {
-                animation: girar 2s linear infinite;
-                border-radius: 50%;
+                animation: girar 4s linear infinite;
                 display: inline-block;
-                background-color: rgb(92, 167, 253);
+                border-radius: 50%;
+                background-image: linear-gradient(to right, #3c71d3, #79a8ff);
                 height: 230px;
                 width: 230px;
             }
 
             img {
-                position: relative;
-                top: 7px;
-                left: 7px;
+                position: absolute;
+                top: 603px;
+                left: 22px;
                 border: 8px solid white;
                 border-radius: 50%;
                 height: 200px;
