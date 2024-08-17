@@ -38,11 +38,28 @@ body main section h2::before {
   padding: 0px 4px;
   margin-right: 5px;
 }
+body main section.apresent div.fotoPerfil {
+  animation: girar 2s linear infinite;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgb(92, 167, 253);
+  height: 230px;
+  width: 230px;
+}
+body main section.apresent img {
+  position: relative;
+  top: 7px;
+  left: 7px;
+  border: 8px solid white;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
 body main section.apresent p {
   font-size: 1.08em;
-  text-indent: 18px;
+  text-indent: 20px;
   text-align: justify;
-  margin: 0;
+  margin-top: 10px;
 }
 body main section.info ul {
   padding: 0px 0px 0px 20px;
