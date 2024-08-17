@@ -55,7 +55,7 @@ body main section.apresent div.quadro div.fotoPerfil {
   position: absolute;
   height: 100%;
   width: 100%;
-  animation: gira 4s linear infinite;
+  animation: girar 4s linear infinite;
   border-radius: 50%;
   background-image: linear-gradient(to right, #3c71d3, #79a8ff);
 }

@@ -1,1 +1,1 @@
-alet("Olá, aqui é o Jonas, como desenvolvedor front-end, eu desenvolvi esse portfólio no inuito de servir de currículo on-line para empresas. no entanto, ainda se encontra em constantes manuntenções no código fonte. ☺️")
+alert("Olá, aqui é o Jonas, como desenvolvedor front-end, eu desenvolvi esse portfólio no inuito de servir de currículo on-line para empresas. no entanto, ainda se encontra em constantes manuntenções no código fonte. ☺️")
