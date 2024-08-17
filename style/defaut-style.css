@@ -43,22 +43,29 @@ body main section h2::before {
   padding: 0px 4px;
   margin-right: 5px;
 }
-body main section.apresent div.fotoPerfil {
-  animation: girar 4s linear infinite;
-  display: inline-block;
+body main section.apresent div.quadro {
+  position: relative;
+  width: 235px;
+  height: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main section.apresent div.quadro div.fotoPerfil {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  animation: gira 4s linear infinite;
   border-radius: 50%;
   background-image: linear-gradient(to right, #3c71d3, #79a8ff);
-  height: 230px;
-  width: 230px;
 }
-body main section.apresent img {
-  position: absolute;
-  top: 603px;
-  left: 22px;
+body main section.apresent div.quadro img {
+  top: 0;
   border: 8px solid white;
   border-radius: 50%;
   height: 200px;
   width: 200px;
+  z-index: 999999;
 }
 body main section.apresent p {
   font-size: 1.08em;
