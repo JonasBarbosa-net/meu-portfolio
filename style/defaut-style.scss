@@ -14,7 +14,7 @@
     margin: 0px 0px 25px 0px;
 }
 
-@keyframes gira {
+@keyframes girar {
     0% {
 
     }
@@ -36,8 +36,6 @@ body {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-position:  right;
-        background-size: cover;
 
         div.imagens {
             position: relative;
@@ -52,7 +50,8 @@ body {
                 max-width: 100%;
             }
 
-            img.ImagemFixa {
+            img.imagem-fixa {
+                transition: 0.1s linear;
                 position: fixed;
             }
         }
